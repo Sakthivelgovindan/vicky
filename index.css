@@ -1,0 +1,35 @@
+#left {
+	height: 100vh;
+	color: red;
+	float: left;
+	width: 50%;
+}
+#right {
+	height: 100vh;
+	color: red;
+	float: right;
+	width: 50%;
+}
+
+.top-left {
+	background: #ddd;
+	height: 50%;
+	text-align: center;
+}
+
+.top-left span {
+	margin: auto;
+	display: inline-block;
+}
+.top-right {
+	background: #aaa;
+	height: 50%;
+}
+.bottom-right {
+	background: #777;
+	height: 50%;
+}
+.bottom-left {
+	background: #444;
+	height: 50%;
+}
