@@ -17,10 +17,14 @@
 	text-align: center;
 }
 
-.top-left span {
-	margin: auto;
-	display: inline-block;
+.top-left div {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 100px;
+	font-size: 22px;
+	color: white;
 }
+
 .top-right {
 	background: #aaa;
 	height: 50%;
@@ -32,4 +36,11 @@
 .bottom-left {
 	background: #444;
 	height: 50%;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	height: 330px;
+	overflow: hidden;
 }

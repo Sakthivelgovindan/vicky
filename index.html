@@ -11,21 +11,58 @@
 <body>
     <div id="left">
         <div class="top-left">
-       <div>
-            <span>Current time</span><br>
-             <span>Hexadecimal Code</span>
+            <div>
+                <span id="time">Current time</span><br>
+                <span id="hexacode">Hexadecimal Code</span>
+            </div>
         </div>
-
-
+        <div class="top-right">
+                <div id="imgGallary" class="container">
+                       
+                </div>
         </div>
-        <div class="top-right">test2</div>
     </div>
     <div id="right">
-        <div class="bottom-left">test3</div>
-        <div class="bottom-right">test4</div>
+        <div class="bottom-left">
+                <audio controls>    
+                    <source src="songs/1.mp3" type="audio/mpeg">          
+                </audio>
+                <audio controls>    
+                    <source src="songs/1.mp3" type="audio/mpeg">          
+                </audio>
+                <audio controls>    
+                    <source src="songs/1.mp3" type="audio/mpeg">          
+                </audio>
+                <audio controls>    
+                    <source src="songs/1.mp3" type="audio/mpeg">          
+                </audio>
+                <audio controls>    
+                    <source src="songs/1.mp3" type="audio/mpeg">          
+                </audio>
+                <audio controls>    
+                    <source src="songs/1.mp3" type="audio/mpeg">          
+                </audio>
+                <audio controls>    
+                    <source src="songs/1.mp3" type="audio/mpeg">          
+                </audio>
+                <audio controls>    
+                    <source src="songs/1.mp3" type="audio/mpeg">          
+                </audio>
+                <audio controls>    
+                    <source src="songs/2.mp3" type="audio/mpeg">          
+                </audio>
+                <audio controls>    
+                    <source src="songs/3.mp3" type="audio/mpeg">          
+                </audio>
+        </div>
+        <div class="bottom-right">
+                <div id="googleMap" style="width:100%;height:330px;"></div>
+
+        </div>
     </div>
 </body>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="jquery.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHzW2GewOOBJ_pC-E68mEu6ZYIji0JnXY&callback=myMap"></script>
 <script src="index.js"></script>
 </html>
